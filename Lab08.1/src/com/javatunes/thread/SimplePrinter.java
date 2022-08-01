@@ -8,11 +8,11 @@
  */
 package com.javatunes.thread;
 
-public class SimplePrinter
-implements Runnable {
+public class SimplePrinter implements Runnable {
 
   @Override
   public void run() {
     System.out.println("SimplePrinter.run");
   }
+
 }
